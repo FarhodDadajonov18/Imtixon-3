@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-3  justify-content-between">
+      <h3 class="header__title text-center bg-secondary text-warning p-2 ">Pizza buyurtma qilish</h3>
+      <div class="col-8">
+  <form class="form" action="https://echo.htmlacademy.ru" id="send">
+    
+    <div class="row">
+      <div class="col-12">
+        <h4 class="teg py-2">Nonni Qanday bo'lsin</h4>
+
+        <select class="select  form-select w-50" aria-label="Default select example" name ="Holati">
+               <option value="" hidden>Tanlang...</option>
+        </select>
+      </div>
+    
+      <div class="col-12 ">
+        <h4 class="teg py-2 mt-2">Kattaligi</h4>
+          <div class="input-radio"></div>
+      </div>
+
+      <div class="col-12">
+        <h4 class="teg py-2">Ustiga nima solaylik ?</h4>
+           <div class="input-check"></div>
+      </div>
+
+      <div class="col-12">
+        <h4 class="teg py-2">Qo'shimchalar </h4>
+        <div class="input-check"></div>
+      </div>
+    </div>
+   
+    
+  </form>  
+
+</div>
+<div class="col-4 border-start border-3 border-success">
+<div class="col-12">
+  <p class="second-parag fw-bold fs-5">Non : <span class="span"></span></p>
+</div>
+
+<div class="col-12">
+  <p class="second-parag fw-bold fs-5 ">Kattaligi :<span class="span2"></span></p>
+</div>
+
+<div class="col-12">
+  <p class="second-parag fw-bold fs-5">Ustida :</p>
+
+  <ul class="list-group list-unstyled fw-bold ">
+
+  </ul>
+</div>  
+
+<div class="col-12">
+  <p class="second-parag fw-bold fs-5">Qo'shimchalar :</p>
+  <ul class="list-group list-unstyled fw-bold ">
+
+  </ul>
+</div>
+
+  <button type="submit" form="send" class="btn btn-primary w-100">Submit</button>
+</div>
+</div>
+</div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
